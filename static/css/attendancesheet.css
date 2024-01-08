@@ -1,0 +1,96 @@
+.contents {
+    position: absolute;
+    top: 50px;
+    width: 100vw;
+    height: 100vh;
+}
+
+.tablel {
+    width: 90%;
+    user-select: none;
+    margin: 50px;
+}
+
+.tablel tr th,
+td {
+    padding: 20px;
+    font-size: medium;
+    font-weight: 400;
+}
+
+.tablel thead {
+    background: #2980b9;
+    color: white;
+    font-weight: 500;
+}
+
+td {
+    color: rgba(0, 0, 0, 0.5);
+    border-bottom: 1px solid #87cfff;
+}
+
+tbody tr:nth-child(2n) {
+    background: #78c0f0;
+}
+
+tbody tr:last-child {
+    border-bottom: 2px solid #0884d7;
+}
+
+td:hover {
+    color: black;
+}
+
+.title {
+    font-weight: 500;
+    font-size: 30px;
+    margin-left: 50px;
+}
+
+.p {
+    text-align: center;
+    font-size: large;
+}
+
+.date {
+    position: relative;
+    top: 30px;
+    left: 1070px;
+    border: 1px solid #2980b9;
+    border-radius: 5px;
+    width: 200px;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    padding: 12px;
+    box-shadow: 1 0 0 rgba(0, 0, 0, 0.5);
+}
+
+.date label {
+    font-size: medium;
+    font-weight: 500;
+}
+
+.date .in {
+    border: none;
+    outline: none;
+    font-size: medium;
+}
+
+.submit {
+    position: relative;
+    left: 1200px;
+    padding: 10px;
+    font-size: medium;
+    background-color: #2980b9;
+    color: aliceblue;
+    font-weight: 400;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    bottom: 20px;
+}
+
+input {
+    font-size: large;
+}

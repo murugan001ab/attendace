@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="{{url_for('static',filename='css/bootstrap.min.css')}}">
+    <link rel="stylesheet" href="{{url_for('static',filename='css/font-awesome.min.css')}}">
+    <link rel="stylesheet" href="{{url_for('static',filename='css/style.css')}}">
+    <link rel="stylesheet" href="{{url_for('static',filename='css/liste.css')}}">
+</head>
+
+<body>
+    <div class="cantainer-menu" id="con">
+        <p>main</p>
+        <ul class="nav navbar-pills">
+            <li><a href="#"><i class="fa fa-dashboard"></i>  menu-1</a></li>
+            <li><a href="#">menu-2</a></li>
+            <li><a href="#">menu-3</a></li>
+        </ul>
+        <p>management</p>
+        <ul class="nav navbar-pills">
+            <li><a href="#">menu-4</a></li>
+            <li><a href="#">menu-5</a></li>
+            <li><a href="#">menu-3</a></li>
+            <li><a href="#">menu-4</a></li>
+            <li><a href="#">menu-5</a></li>
+        </ul>
+        <div class="nav-overlay" id="over"></div>
+    </div>
+    <div class="cantainer navbar-fixed-top">
+        <nav class="navbar navbar-inverse">
+
+            <div class="container-fluid">
+
+                <button id="bar-b" class=" navbar-left bar-b">
+                        <span class="bar"></span>
+                        <span class="bar"></span> 
+                        <span class="bar"></span>
+                    </button>
+                <h3 class=" nav navbar-nav brand">SJC</h3>
+                <form class="navbar-form navbar-left" action="">
+                    <div class=" search">
+                        <input type="text" class="search-bar" placeholder="Search"> <i class="fa fa-search search-b"></i>
+
+                    </div>
+                </form>
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="bell"><a href="#"><i class="fa fa-bell"> <span class="badge notif">5</span></i></a>
+
+                    </li>
+                    <li><a href="#"><i class="fa fa-sign-in"></i> sign in</a></li>
+                    <li><a href="#"><i class="fa fa-user"></i> about</a></li>
+                    <li class=" profile">
+                        <a href="#"><img src="" alt=""></a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+    <div class="content">
+        <div class="list-t">Employes</div>
+        <p class="list-p">this employee list</p>
+        <div class="listsearch">
+            <input type="text" class="search-bar" placeholder="Search"> <i class="fa fa-search search-b"></i>
+        </div>
+        <div class="list-f">
+            <div class="box" id="box">
+                <img class="photo" src="3030038.jpg" alt="">
+                <div class="pro">
+                    <label for="">name   :</label><label>murugan</label><br>
+                    <label for="">age     :</label><label for="">18</label><br>
+                    <label for="">class  :</label><label for="">3rd bsc</label><br>
+                    <label for="">collage:</label><label for="">st.joseph</label><br>
+                    <label for="">role   :</label><label for="">developer</label><br>
+                    <label for="">email  :</label><label for="">murugan@gmail.com</label><br>
+                </div>
+            </div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+        </div>
+    </div>
+    <script src="{{url_for('static',filename='js/bootstrap.min.js')}}"></script>
+    <script src="{{url_for('static',filename='js/jqeery.min.js')}}"></script>
+    <script src="{{url_for('static',filename='js/classadd.js')}}"></script>
+
+</body>
+
+</html>
