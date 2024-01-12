@@ -1,0 +1,30 @@
+<div class="line">
+<div class="addb">  <input type="button" class="add" name="add" value="">ADD <i class="fa fa-plus"></i></div><br>
+<div class="listsearch">
+ <input type="text" class="search-bar" placeholder="Search"> <i class="fa fa-search search-b"></i>
+</div>
+</div>
+.addb{
+    border:  1px solid orange;
+    border-radius: 5px;
+    height: 30px;
+    width: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    margin-left: 50px;
+}
+.addb:hover{
+    color: white;
+    background:orange;
+}
+.addb .add{
+    border: none;
+   background-color: white;
+    outline: none;
+}
+.line{
+    display: flex;
+    justify-content: space-between;
+}
